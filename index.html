@@ -133,9 +133,9 @@
             <div class="flex justify-between items-center relative z-10">
                 <div class="flex items-center gap-6">
                     <div class="relative w-32 h-32 flex-shrink-0">
-                        <!-- Expert fix: CSS backgrounds bypass strict img tag rendering blocks and allow foolproof link stacking -->
+                        <!-- Expert fix: Uses relative paths to locate the image in the same repository folder. Fallbacks to .jpg provided. -->
                         <div class="w-full h-full rounded-full border-4 border-slate-800 shadow-xl z-20 relative bg-slate-200 bg-cover bg-center bg-no-repeat" 
-                             style="background-image: url('./sobia__headshot.png'), url('https://raw.githubusercontent.com/brandonabaki-design/sobia-cv/main/sobia__headshot.png');">
+                             style="background-image: url('./sobia__headshot.png'), url('./sobia__headshot.jpg');">
                         </div>
                         <div class="absolute inset-0 rounded-full border-2 border-blue-500 scale-105 z-10"></div>
                     </div>

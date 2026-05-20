@@ -3,7 +3,7 @@
 // --- Google Authentication Whitelist Configuration ---
 const AUTH_CONFIG = {
     // Replace this with your Google Cloud Client ID (from Google Developer Console)
-    clientId: "1046903728639-lh6u9f2j6b2d18v5oar42v0tps2vj27c.apps.googleusercontent.com",
+    clientId: "969197700169-su191805de8ad6tco43pe60nvfj1d2ln.apps.googleusercontent.com",
     
     // Serverless endpoints to verify token (tries Vercel first, falls back to Netlify)
     endpoints: {
